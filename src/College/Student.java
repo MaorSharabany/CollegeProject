@@ -100,7 +100,7 @@ public class Student {
 	/**
 	 * Prints this student, all the courses that s/he took, and the grade point average.
 	 */
-	public void studentReport() {
+	public void studentReport() throws ArithmeticException {
 		int sumGrades = 0, count = 0;
 		double GPA = 0;
 		System.out.println(this.name + ": ");
